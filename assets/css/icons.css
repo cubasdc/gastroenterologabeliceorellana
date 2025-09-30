@@ -1,0 +1,17 @@
+/* assets/css/icons.css */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css");
+
+/* Si usas la clase 'icon' personalizada en el HTML original y quieres que funcione con Font Awesome */
+.icon::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900; /* Para iconos sólidos */
+    /* Tendrías que mapear manualmente cada clase original a un icono de Font Awesome */
+}
+.icon-id-card::before { content: "\f2c2"; } /* Ejemplo */
+.icon-facebook::before { content: "\f09a"; }
+.icon-instagram::before { content: "\f16d"; }
+.icon-map-marker::before { content: "\f3c5"; }
+.icon-whatsapp::before { content: "\f232"; }
+.icon-phone::before { content: "\f095"; }
+.icon-location::before { content: "\f3c5"; } /* Usar el mismo que map-marker */
+.icon-mail::before { content: "\f0e0"; } /* Icono de correo */
