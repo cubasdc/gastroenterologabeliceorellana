@@ -552,7 +552,9 @@
             .social-icons {
                 display: none;
             }
-            .social-icons-footer{display: flex;}
+            .social-icons-footer{display: flex;
+                }
+            .footer-column-footer a {color: var(--primary-color) !important}
             
             .hamburger {
                 display: flex;
@@ -608,6 +610,8 @@
                 max-width: 250px;
             }
         }
+        .footer-column-footer a {color: var(--primary-color) !important}
+        .about-image{margin-top: 1rem}
     </style>
 </head>
 
@@ -651,8 +655,13 @@
         <div class="container">
             <div class="hero-content">
                 <h1>Gastroenteróloga Belice Orellana</h1>
-                <h2>Médico cirujano especializada en gastroenterología</h2>
-                <p>Atención Especializada en Gastroenterología en San Martín de Porres, Lima</p>
+                <h2>Médico cirujano especializada en gastroenterología con <script>
+    var añoActual = new Date().getFullYear();
+    var año2005 = 2005;
+    var diferencia = añoActual - año2005;
+    document.write(diferencia);
+</script> años de experiencia.</h2>
+                <p>Atención Especializada en Gastroenterología en San Martín de Porres, Lima.</p>
                 <div class="hero-buttons">
                     <a href="tel:51960519372" class="btn">Llamar Ahora</a>
                     <a href="https://wa.me/51960519372" class="btn btn-accent">Consultar por WhatsApp</a>
@@ -693,7 +702,7 @@
                     </ul>
                 </div>
             </div>
-            <div style="text-align: center; margin-top: 30px;">
+            <div style="text-align: center; margin-top: 1rem;">
                 <p><strong>Atención Previa Cita:</strong> Para una atención eficiente y sin demoras, se requiere programar una cita previa.</p>
             </div>
         </div>
@@ -715,7 +724,7 @@
                     <li>Diversos cursos y diplomados en servicios técnicos de mantenimiento de equipos médicos, atención integral de salud para personas adultas mayores, y emergencias pediátricas y gineco-obstétricas</li>
                 </ul>
                 
-                <div style="margin-top: 30px;">
+                <div style="margin-top: 1rem;">
                     <a href="#curriculum" class="btn">Ver Curriculum Completo</a>
                 </div>
             </div>
@@ -872,7 +881,7 @@
                     </ul>
                 </div>
                 
-                <div class="footer-column">
+                <div class="footer-column footer-column-footer">
                     <h3>Síguenos</h3>
                     <div class="social-icons social-icons-footer">
                         <a href="https://www.facebook.com/belice.orellana.9" title="Facebook">FB</a>
@@ -883,7 +892,7 @@
             </div>
             
             <div class="footer-bottom">
-                <p>&copy; 2024 Gastroenteróloga Belice Orellana - Todos los derechos reservados</p>
+                <p>&copy; <script>document.write(new Date().getFullYear());</script> Gastroenteróloga Belice Orellana - Todos los derechos reservados</p>
                 <p><a href="https://www.gastroenterologabeliceorellana.com/">www.gastroenterologabeliceorellana.com</a></p>
             </div>
         </div>
