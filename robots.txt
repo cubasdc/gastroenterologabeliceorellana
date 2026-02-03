@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 
 # Replace the URL below with your actual sitemap URL
-Sitemap: https://www.gastroenterologabeliceorellana.com/sitemap.xml
+Sitemap: https://gastroenterologabeliceorellana.com/sitemap.xml

@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
-    <!-- Página Principal -->
+    <!-- Única Página Principal -->
     <url>
-        <loc>https://www.gastroenterologabeliceorellana.com/</loc>
+        <loc>https://gastroenterologabeliceorellana.com/</loc>
         <lastmod>2024-11-07</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
-
-    
 
 </urlset>
